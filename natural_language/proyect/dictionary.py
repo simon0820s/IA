@@ -6,9 +6,11 @@ def run(text):
     
     dictionary={}
     for w in text:
+        print(w)
         a,b=re.split(":",w)
         dictionary[a]=b
-    print(dictionary)
+
+    return dictionary
 
 if __name__=='__main__':
     run()
