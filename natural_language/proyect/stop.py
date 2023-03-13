@@ -1,6 +1,5 @@
 from nltk.corpus import stopwords
 import nltk
-from nltk.probability import FreqDist
 
 def run(text):
     stop=set(stopwords.words('spanish'))
